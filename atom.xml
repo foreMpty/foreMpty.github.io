@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://forempty.github.io/"/>
   <updated>2019-06-12T07:53:43.217Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://forempty.github.io/</id>
   
   <author>
     <name>gxmu_stu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Text</title>
-    <link href="http://yoursite.com/2019/06/12/text/"/>
-    <id>http://yoursite.com/2019/06/12/text/</id>
+    <link href="https://forempty.github.io/2019/06/12/text/"/>
+    <id>https://forempty.github.io/2019/06/12/text/</id>
     <published>2019-06-12T07:53:43.168Z</published>
     <updated>2019-06-12T07:53:43.217Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>Hello,World!</title>
-    <link href="http://yoursite.com/2019/06/12/Hello-My-World/"/>
-    <id>http://yoursite.com/2019/06/12/Hello-My-World/</id>
+    <link href="https://forempty.github.io/2019/06/12/Hello-My-World/"/>
+    <id>https://forempty.github.io/2019/06/12/Hello-My-World/</id>
     <published>2019-06-12T07:27:35.979Z</published>
     <updated>2019-06-12T08:16:01.212Z</updated>
     
@@ -56,18 +56,18 @@
     </summary>
     
     
-      <category term="-First Page -Show" scheme="http://yoursite.com/tags/First-Page-Show/"/>
+      <category term="-First Page -Show" scheme="https://forempty.github.io/tags/First-Page-Show/"/>
     
   </entry>
   
   <entry>
     <title>踢蹭你家网络的孩子的屁股！</title>
-    <link href="http://yoursite.com/2019/06/06/kick%20the%20asses%20of%20the%20kids%20who%20sneak%20in%20ur%20WLAN/"/>
-    <id>http://yoursite.com/2019/06/06/kick the asses of the kids who sneak in ur WLAN/</id>
+    <link href="https://forempty.github.io/2019/06/06/kick%20the%20asses%20of%20the%20kids%20who%20sneak%20in%20ur%20WLAN/"/>
+    <id>https://forempty.github.io/2019/06/06/kick the asses of the kids who sneak in ur WLAN/</id>
     <published>2019-06-05T16:00:00.000Z</published>
-    <updated>2019-06-12T08:26:57.300Z</updated>
+    <updated>2019-06-12T08:54:30.426Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="路由器的简单应用2"><a href="#路由器的简单应用2" class="headerlink" title="路由器的简单应用2"></a>路由器的简单应用2</h1><p>今天还是主讲路由器的简单应用，在此之前，我们需要了解一下有关的预备知识。(这期的内容可能会有些硬核…)</p><h2 id="DHCP服务"><a href="#DHCP服务" class="headerlink" title="DHCP服务"></a>DHCP服务</h2><p>DHCP，即动态主机设置协议，是一种局域网的网络协议。它主要有两种用途：用于内部网络(我们讲的局域网)自动分配IP地址；给用户用于内部网管理员作为对所有计算机设备作中央管理的手段。</p><p>现在，让我们进入到路由器管理页面(仍旧以TL-WR740N为例)，打开 DHCP服务器 -&gt; DHCP服务 。如下图</p><p> <img src="/img/kick ass/t1.jpg" alt="t1"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="路由器的简单应用2"><a href="#路由器的简单应用2" class="headerlink" title="路由器的简单应用2"></a>路由器的简单应用2</h1><p>今天还是主讲路由器的简单应用，在此之前，我们需要了解一下有关的预备知识。(这期的内容可能会有些硬核…)</p><h2 id="DHCP服务"><a href="#DHCP服务" class="headerlink" title="DHCP服务"></a>DHCP服务</h2><p>DHCP，即动态主机设置协议，是一种局域网的网络协议。它主要有两种用途：用于内部网络(我们讲的局域网)自动分配IP地址；给用户用于内部网管理员作为对所有计算机设备作中央管理的手段。</p><p>现在，让我们进入到路由器管理页面(仍旧以TL-WR740N为例)，打开 DHCP服务器 -&gt; DHCP服务 。如下图</p><p> <img src="/img/kick ass/1.jpg" alt="t1"></p>]]></content>
     
     <summary type="html">
     
@@ -79,7 +79,7 @@
     </summary>
     
     
-      <category term="-防蹭网的简单方法 -water_Pouring -DHCP" scheme="http://yoursite.com/tags/%E9%98%B2%E8%B9%AD%E7%BD%91%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95-water-Pouring-DHCP/"/>
+      <category term="-防蹭网的简单方法 -water_Pouring -DHCP" scheme="https://forempty.github.io/tags/%E9%98%B2%E8%B9%AD%E7%BD%91%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95-water-Pouring-DHCP/"/>
     
   </entry>
   
