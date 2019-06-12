@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Text - Myw3rk</title>
+    <title>科学上网 - Myw3rk</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate">
     <meta name="keywords" content="empty,"> 
-    <meta name="description" content="Text"> 
+    <meta name="description" content="首先注明：此次内容只会说明原理，而不会有任何实现的教程。这次的内容在之前就已经说过了，是有关科学上网的内容。
+从这次更新开始，笔者在以后的内容中会尽量少用相关的专有名词，以更加通俗的语言来说明一些技,"> 
     <meta name="author" content="gxmu_stu"> 
     <link rel="alternative" href="atom.xml" title="Myw3rk" type="application/atom+xml"> 
     <link rel="icon" href="/img/logo.png"> 
@@ -35,7 +36,7 @@
     <div class="bar" style="width: 0;"></div>
     <a class="icon-home image-icon" href="javascript:;" data-url="https://forempty.github.io"></a>
     <div title="播放/暂停" class="icon-play"></div>
-    <h3 class="subtitle">Text</h3>
+    <h3 class="subtitle">科学上网</h3>
     <div class="social">
         <!--<div class="like-icon">-->
             <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
@@ -53,14 +54,19 @@
     <div class="section">
         <div class="article">
     <div class="main">
-        <h1 class="title">Text</h1>
+        <h1 class="title">科学上网</h1>
         <div class="stuff">
-            <span>六月 12, 2019</span>
+            <span>六月 07, 2019</span>
             
+  <ul class="post-tags-list"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/科学上网/">-科学上网</a></li></ul>
+
 
         </div>
         <div class="content markdown">
-            <h1 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h1>
+            <h2 id="首先注明：此次内容只会说明原理，而不会有任何实现的教程。"><a href="#首先注明：此次内容只会说明原理，而不会有任何实现的教程。" class="headerlink" title="首先注明：此次内容只会说明原理，而不会有任何实现的教程。"></a>首先注明：此次内容只会说明原理，而不会有任何实现的教程。</h2><p>这次的内容在之前就已经说过了，是有关科学上网的内容。</p>
+<p>从这次更新开始，笔者在以后的内容中会尽量少用相关的专有名词，以更加通俗的语言来说明一些技术的原理。<br>这次以科学上网为始。<br>科学上网是啥？就是在国外的网络上冲浪。在了解科学上网之前，我们需要了解为什么会有科学上网这一说法的出现。<br>首先，我国网络存在网络限制。这种网络限制会限制我国网民对一些境外网站的访问。这种网络限制是怎么对国内网民访问境外网站的行为起到限制作用的呢？它的限制方法可能有如下几种：<br>①IP黑名单<br>就是把所有要限制的境外网站的IP列入黑名单中。只要检测到境内的主机发送的数据包的目标地址在这个名单内，那么这些数据包就会被丢弃。这样，要访问境外网站的主机也就建立不了与境外服务器的连接了。<br>②DNS劫持<br>先解释一下DNS吧，DNS就是域名服务器(Domain Name System)的意思，DNS服务器里面放有一张域名与IP地址对应的表，当网域内的主机发送访问域名的请求的时候，DNS服务器会根据主机所发的域名寻找与之对应的IP地址并完成后续的连接工作。路由器WAN口设置里面的DNS地址指的就是域名服务器的IP地址，在不同地区用的DNS服务器不同。域名怎么理解？简单说，就是IP地址不好记住，用一些英文来方便识记。比如，<a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a> 是一个域名。域名与IP地址的关系是多对一的关系。<br>DNS劫持，就是在域名服务器中存在的一种滤过机制。如果源主机要访问一个非法的域名，在请求域名服务器后，域名服务器不会提供正确的目标IP地址，反而会提供一个虚假的IP地址，这样源主机就不能访问正确的IP地址了。<br>③内容审查<br>也就是境内的那层网络限制会检查数据包内是否有敏感词。<br>(境内网络限制应该还有更多的限制方法，但是上面几个的方法都只是猜测的，没有任何直接的根据说网络限制用到上述的方法。)<br>假设上述的几个方法就是网络限制的实现方法，那么要科学上网，就应该要让上面的几个方法起不到作用。<br>形象地说，如果将这层网络限制比作”Wall”，那么那个“Jumper”就要一个合适的梯子来帮助他“Jump”过去。请看下文。<br>这个梯子，我们把它叫做代理服务器，算作是一种中继，这个中继至少要满足如下的条件：<br>第一点，这个中继的IP地址不能在黑名单中。<br>第二点，也是最后一点，源主机与中继的通讯需要加密。<br>然后，租一个满足条件的服务器，再安装一些通讯加密的软件，通过设置，就可以实现科学上网了。</p>
+<p>最后建议：闲时多读书，墙外的世界未必精彩。<br>HF &amp; GL.</p>
+
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
                 <source type="audio/mpeg" src>
@@ -80,10 +86,6 @@
 
 
     </div>
-    
-        <div class="side">
-            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Text"><span class="toc-number">1.</span> <span class="toc-text">Text</span></a></li></ol>
-        </div>
     
 </div>
 
