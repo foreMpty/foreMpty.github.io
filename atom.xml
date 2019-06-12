@@ -40,6 +40,29 @@
   </entry>
   
   <entry>
+    <title>笔记本电脑的另类用法...</title>
+    <link href="https://forempty.github.io/2019/06/08/fun/"/>
+    <id>https://forempty.github.io/2019/06/08/fun/</id>
+    <published>2019-06-07T16:00:00.000Z</published>
+    <updated>2019-06-12T11:35:11.660Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="利用笔记本的热点功能做路由中继器"><a href="#利用笔记本的热点功能做路由中继器" class="headerlink" title="利用笔记本的热点功能做路由中继器"></a>利用笔记本的热点功能做路由中继器</h1><p>这篇文章其实是搞笑用的…（认真脸）<br>好了…进入正题.</p><p>准备：笔记本以网线连接路由器，系统为Win10.</p><p>首先在设置里面找到 网络和Internet<br>在左边菜单里找到移动热点</p><p>点击<br><img src="/img/WiFiSignal_Enhancement/1.jpg" alt="t1"></p><p>如果你是第一次次创建，就会有如下的情况。<br><img src="/img/WiFiSignal_Enhancement/2.jpg" alt="t2"><br>和手机热点一样，创建完后就可用手机连接了。</p><p>另外的教程：如何在关上笔记本盖子后，使笔记本的系统仍在正常运行。</p><p>找到控制面板（实在不懂的可以问小冰，就打“控制面板”后就出来了），<br>如下，<br><img src="/img/WiFiSignal_Enhancement/3.jpg" alt="t3"><br>然后打开  “硬件和声音”，点击 “电源选项”</p><p>在左侧栏找到 “选择关闭盖子的功能”，得到<br><img src="/img/WiFiSignal_Enhancement/4.jpg" alt="t4"></p><p>最好只改 关闭盖子及接通电源时的相关操作，也就改为“不采取任何操作”。<br>这样，开启热点后就可以关掉声音、关上笔记本，让它老老实实地做一个路由器中继器了。</p><h4 id="另附：如果有屏保，建议改时间改得长一些。"><a href="#另附：如果有屏保，建议改时间改得长一些。" class="headerlink" title="另附：如果有屏保，建议改时间改得长一些。"></a>另附：如果有屏保，建议改时间改得长一些。</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;利用笔记本的热点功能做路由中继器&quot;&gt;&lt;a href=&quot;#利用笔记本的热点功能做路由中继器&quot; class=&quot;headerlink&quot; title=&quot;利用笔记本的热点功能做路由中继器&quot;&gt;&lt;/a&gt;利用笔记本的热点功能做路由中继器&lt;/h1&gt;&lt;p&gt;这篇文章其实是搞笑用的…（认
+      
+    
+    </summary>
+    
+    
+      <category term="-fun" scheme="https://forempty.github.io/tags/fun/"/>
+    
+  </entry>
+  
+  <entry>
     <title>科学上网</title>
     <link href="https://forempty.github.io/2019/06/07/vpn/"/>
     <id>https://forempty.github.io/2019/06/07/vpn/</id>
