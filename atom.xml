@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forempty.github.io/"/>
-  <updated>2019-06-12T08:16:01.212Z</updated>
+  <updated>2019-06-12T12:00:34.507Z</updated>
   <id>https://forempty.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://forempty.github.io/2019/06/12/Hello-My-World/"/>
     <id>https://forempty.github.io/2019/06/12/Hello-My-World/</id>
     <published>2019-06-12T07:27:35.979Z</published>
-    <updated>2019-06-12T08:16:01.212Z</updated>
+    <updated>2019-06-12T12:00:34.507Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello,World!"></a>Hello,World!</h1>]]></content>
     
@@ -35,7 +35,9 @@
     </summary>
     
     
-      <category term="-First Page -Show" scheme="https://forempty.github.io/tags/First-Page-Show/"/>
+      <category term="Hello,World!" scheme="https://forempty.github.io/tags/Hello-World/"/>
+    
+      <category term="666" scheme="https://forempty.github.io/tags/666/"/>
     
   </entry>
   
@@ -44,7 +46,7 @@
     <link href="https://forempty.github.io/2019/06/08/fun/"/>
     <id>https://forempty.github.io/2019/06/08/fun/</id>
     <published>2019-06-07T16:00:00.000Z</published>
-    <updated>2019-06-12T11:35:11.660Z</updated>
+    <updated>2019-06-12T12:00:04.191Z</updated>
     
     <content type="html"><![CDATA[<h1 id="利用笔记本的热点功能做路由中继器"><a href="#利用笔记本的热点功能做路由中继器" class="headerlink" title="利用笔记本的热点功能做路由中继器"></a>利用笔记本的热点功能做路由中继器</h1><p>这篇文章其实是搞笑用的…（认真脸）<br>好了…进入正题.</p><p>准备：笔记本以网线连接路由器，系统为Win10.</p><p>首先在设置里面找到 网络和Internet<br>在左边菜单里找到移动热点</p><p>点击<br><img src="/img/WiFiSignal_Enhancement/1.jpg" alt="t1"></p><p>如果你是第一次次创建，就会有如下的情况。<br><img src="/img/WiFiSignal_Enhancement/2.jpg" alt="t2"><br>和手机热点一样，创建完后就可用手机连接了。</p><p>另外的教程：如何在关上笔记本盖子后，使笔记本的系统仍在正常运行。</p><p>找到控制面板（实在不懂的可以问小冰，就打“控制面板”后就出来了），<br>如下，<br><img src="/img/WiFiSignal_Enhancement/3.jpg" alt="t3"><br>然后打开  “硬件和声音”，点击 “电源选项”</p><p>在左侧栏找到 “选择关闭盖子的功能”，得到<br><img src="/img/WiFiSignal_Enhancement/4.jpg" alt="t4"></p><p>最好只改 关闭盖子及接通电源时的相关操作，也就改为“不采取任何操作”。<br>这样，开启热点后就可以关掉声音、关上笔记本，让它老老实实地做一个路由器中继器了。</p><h4 id="另附：如果有屏保，建议改时间改得长一些。"><a href="#另附：如果有屏保，建议改时间改得长一些。" class="headerlink" title="另附：如果有屏保，建议改时间改得长一些。"></a>另附：如果有屏保，建议改时间改得长一些。</h4>]]></content>
     
@@ -58,7 +60,7 @@
     </summary>
     
     
-      <category term="-fun" scheme="https://forempty.github.io/tags/fun/"/>
+      <category term="fun" scheme="https://forempty.github.io/tags/fun/"/>
     
   </entry>
   
@@ -67,7 +69,7 @@
     <link href="https://forempty.github.io/2019/06/07/vpn/"/>
     <id>https://forempty.github.io/2019/06/07/vpn/</id>
     <published>2019-06-06T16:00:00.000Z</published>
-    <updated>2019-06-12T11:13:55.407Z</updated>
+    <updated>2019-06-12T11:59:35.230Z</updated>
     
     <content type="html"><![CDATA[<h2 id="首先注明：此次内容只会说明原理，而不会有任何实现的教程。"><a href="#首先注明：此次内容只会说明原理，而不会有任何实现的教程。" class="headerlink" title="首先注明：此次内容只会说明原理，而不会有任何实现的教程。"></a>首先注明：此次内容只会说明原理，而不会有任何实现的教程。</h2><p>这次的内容在之前就已经说过了，是有关科学上网的内容。</p><p>从这次更新开始，笔者在以后的内容中会尽量少用相关的专有名词，以更加通俗的语言来说明一些技术的原理。<br>这次以科学上网为始。<br>科学上网是啥？就是在国外的网络上冲浪。在了解科学上网之前，我们需要了解为什么会有科学上网这一说法的出现。<br>首先，我国网络存在网络限制。这种网络限制会限制我国网民对一些境外网站的访问。这种网络限制是怎么对国内网民访问境外网站的行为起到限制作用的呢？它的限制方法可能有如下几种：<br>①IP黑名单<br>就是把所有要限制的境外网站的IP列入黑名单中。只要检测到境内的主机发送的数据包的目标地址在这个名单内，那么这些数据包就会被丢弃。这样，要访问境外网站的主机也就建立不了与境外服务器的连接了。<br>②DNS劫持<br>先解释一下DNS吧，DNS就是域名服务器(Domain Name System)的意思，DNS服务器里面放有一张域名与IP地址对应的表，当网域内的主机发送访问域名的请求的时候，DNS服务器会根据主机所发的域名寻找与之对应的IP地址并完成后续的连接工作。路由器WAN口设置里面的DNS地址指的就是域名服务器的IP地址，在不同地区用的DNS服务器不同。域名怎么理解？简单说，就是IP地址不好记住，用一些英文来方便识记。比如，<a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a> 是一个域名。域名与IP地址的关系是多对一的关系。<br>DNS劫持，就是在域名服务器中存在的一种滤过机制。如果源主机要访问一个非法的域名，在请求域名服务器后，域名服务器不会提供正确的目标IP地址，反而会提供一个虚假的IP地址，这样源主机就不能访问正确的IP地址了。<br>③内容审查<br>也就是境内的那层网络限制会检查数据包内是否有敏感词。<br>(境内网络限制应该还有更多的限制方法，但是上面几个的方法都只是猜测的，没有任何直接的根据说网络限制用到上述的方法。)<br>假设上述的几个方法就是网络限制的实现方法，那么要科学上网，就应该要让上面的几个方法起不到作用。<br>形象地说，如果将这层网络限制比作”Wall”，那么那个“Jumper”就要一个合适的梯子来帮助他“Jump”过去。请看下文。<br>这个梯子，我们把它叫做代理服务器，算作是一种中继，这个中继至少要满足如下的条件：<br>第一点，这个中继的IP地址不能在黑名单中。<br>第二点，也是最后一点，源主机与中继的通讯需要加密。<br>然后，租一个满足条件的服务器，再安装一些通讯加密的软件，通过设置，就可以实现科学上网了。</p><p>最后建议：闲时多读书，墙外的世界未必精彩。<br>HF &amp; GL.</p>]]></content>
     
@@ -81,7 +83,7 @@
     </summary>
     
     
-      <category term="-科学上网" scheme="https://forempty.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+      <category term="科学上网" scheme="https://forempty.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
   </entry>
   
@@ -90,7 +92,7 @@
     <link href="https://forempty.github.io/2019/06/06/kick%20the%20asses%20of%20the%20kids%20who%20sneak%20in%20ur%20WLAN/"/>
     <id>https://forempty.github.io/2019/06/06/kick the asses of the kids who sneak in ur WLAN/</id>
     <published>2019-06-05T16:00:00.000Z</published>
-    <updated>2019-06-12T11:15:26.628Z</updated>
+    <updated>2019-06-12T11:59:29.520Z</updated>
     
     <content type="html"><![CDATA[<h1 id="关于路由器的简单操作"><a href="#关于路由器的简单操作" class="headerlink" title="关于路由器的简单操作"></a>关于路由器的简单操作</h1><p>今天还是主讲路由器的简单应用，在此之前，我们需要了解一下有关的预备知识。(这期的内容可能会有些硬核…)</p><h2 id="DHCP服务"><a href="#DHCP服务" class="headerlink" title="DHCP服务"></a>DHCP服务</h2><p>DHCP，即动态主机设置协议，是一种局域网的网络协议。它主要有两种用途：用于内部网络(我们讲的局域网)自动分配IP地址；给用户用于内部网管理员作为对所有计算机设备作中央管理的手段。 </p><p>现在，让我们进入到路由器管理页面(仍旧以TL-WR740N为例)，打开 DHCP服务器 -&gt; DHCP服务 。如下图 </p><p> <img src="/img/kick ass/1.jpg" alt="t1"></p><p>在这个页面中，DHCP服务一般是启用的。开启DHCP服务后局域网内的设备才会被路由器赋予在这个局域网内的IP地址，而这个局域网内的IP地址，相对而言，称为内网IP地址。而路由器由于接入了外部网络，被上一级的服务器(ISP)赋予了一个IP地址，这个IP地址相对地被称作是外网IP地址。当然，这里所谓的“外网IP地址”不一定是“外网IP地址”，这是在之前我们已经假设过的、只有两层简单网络层的情况下下的定义。多层网络嵌套的情况将会在未来的文章中会再次提及。<br>简单地讲，路由器作为DHCP服务器，会将它预备好的IP地址分发给局域网中的设备。如上图，DHCP服务器会在开始地址和结束地址限定的地址范围内选出合适的IP地址分发给局域网中的设备。跟操作系统中的进程类似，这些IP地址有着自己的生命周期，生命周期之后，分发的IP地址会被回收，DHCP服务器会再次进行分发过程。生命周期，可以理解为地址的租期。<br>至于上图的后四项，在这里可以不用填，路由器会帮我们处理好。<br>DHCP服务器分配地址的方式有三种，它们分别是动态分配，自动分配和手工分配。在这里，我们只需要了解手工分配。在路由器管理页面中找到 DHCP服务器 -&gt; 静态地址保留 ，如下图所示。 </p><p><img src="/img/kick ass/2.jpg" alt="t2"> </p><p>上图对一些无关紧要的内容进行了处理，保留了IP地址的大部分位。上示的IP地址为私网(如本例中的局域网)地址中的C类地址(有A,B和C类地址)。这些IP地址对应的是给局域网设备分配的IP地址。MAC地址为物理地址，是局域网中设备的一种标识，可以理解为一个人的名字。我们将局域网中每一个设备的MAC地址与我们要分配给设备的IP地址紧紧地绑定起来。比如，将MAC地址66-66-66-GG-GG-GG与IP地址192.168.1.101绑定起来，那么下次DHCP服务器分配192.168.1.101这个IP地址的时候就只能将它分发给MAC地址为66-66-66-GG-GG-GG的设备。<br>预备知识掌握之后，我们就开始正文部分了。这次的内容，是“如何让其他设备即使拥有了Wifi密码或者连接了网线也不能通过路由器上网”。<br>以笔者的路由器TL-WR740N为例，下面几段文字为步骤。<br>1、找到 DHCP服务器 -&gt; DHCP服务，假设我们允许连接的设备有六个，我们将地址池的范围设置为192.168.X.100到192.168.X.105(X表示0到255的整数，默认为1或0)，也就是把开始地址设置为192.168.X.100，结束地址设置为192.168.X.105。租期可以不用管。<br>2、找到 DHCP服务器 -&gt; 静态地址保留，然后在计算机设置(篇尾会讲)或手机设置 -&gt; 关于手机 中找到设备的MAC地址。<br>3、在192.168.X.100到192.168.X.105这个范围内选一个IP地址来与某一个MAC地址绑定，注意，一个MAC地址只能绑定一个IP地址。<br>4、填写之后，勾选“生效”的状态，再保存。</p><h2 id="原理-Esay"><a href="#原理-Esay" class="headerlink" title="原理(Esay)"></a>原理(Esay)</h2><p>比如一个老师要给6个学习好的孩子分6颗糖，6颗糖的口味不同。本来老师是要随机分给着6个孩子的，但是老师在心里却内定好了谁该吃哪一种口味的糖，于是老师将内定好的糖分给了这6个孩子。这时，有两个学习不好的孩子来找老师要糖吃，老师说他们学习要提升上来了才能有糖吃，所以让这两个孩子走开了。这个例子中，“糖”对应的是IP地址，“老师”对应设置的路由器，“学习好的孩子”对应我们要绑定IP地址的MAC地址，MAC地址对应的是我们允许连接路由器的设备，“两个学习不好的孩子”对应的是我们所不允许连接路由器的设备(无论它通过何种方式连接)，“6颗糖”说明我们要限定的IP地址范围。</p><h2 id="结尾-如何在计算机中找到计算机的MAC地址-仅仅以win10为例"><a href="#结尾-如何在计算机中找到计算机的MAC地址-仅仅以win10为例" class="headerlink" title="结尾-如何在计算机中找到计算机的MAC地址(仅仅以win10为例)"></a>结尾-如何在计算机中找到计算机的MAC地址(仅仅以win10为例)</h2><p>1、打开“开始菜单”。<br>2、点击“齿轮状”的按钮(即 设置)。<br>3、点击 网络和Internet。<br>4、点击 状态。<br>5、点击 更改连接属性<br>6、下拉找到 属性 -&gt; 物理地址(MAC地址)<br>7、这个MAC地址就是当前计算机的MAC地址。<br>注：计算机MAC地址是由网卡决定的，网卡有有线跟无线之分。如果你的计算机支持无线功能，要注意计算机以无线的方式连接路由器的MAC地址和以网线的方式连接路由器的MAC地址是不同的</p>]]></content>
     
@@ -104,9 +106,25 @@
     </summary>
     
     
-      <category term="-防蹭网的简单方法
--water_Pouring
--DHCP" scheme="https://forempty.github.io/tags/%E9%98%B2%E8%B9%AD%E7%BD%91%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95-water-Pouring-DHCP/"/>
+      <category term="防蹭网的简单方法" scheme="https://forempty.github.io/tags/%E9%98%B2%E8%B9%AD%E7%BD%91%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95/"/>
+    
+      <category term="water_Pouring" scheme="https://forempty.github.io/tags/water-Pouring/"/>
+    
+      <category term="DHCP" scheme="https://forempty.github.io/tags/DHCP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>About</title>
+    <link href="https://forempty.github.io/2019/06/01/about/"/>
+    <id>https://forempty.github.io/2019/06/01/about/</id>
+    <published>2019-05-31T16:00:00.000Z</published>
+    <updated>2019-06-12T11:55:26.900Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
     
   </entry>
   
