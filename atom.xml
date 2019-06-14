@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://forempty.github.io/"/>
-  <updated>2019-06-12T12:00:34.507Z</updated>
-  <id>https://forempty.github.io/</id>
+  <link href="http://forempty.github.io/"/>
+  <updated>2019-06-13T23:49:41.610Z</updated>
+  <id>http://forempty.github.io/</id>
   
   <author>
     <name>gxmu_stu</name>
@@ -18,33 +18,34 @@
   
   <entry>
     <title>Hello,World!</title>
-    <link href="https://forempty.github.io/2019/06/12/Hello-My-World/"/>
-    <id>https://forempty.github.io/2019/06/12/Hello-My-World/</id>
+    <link href="http://forempty.github.io/2019/06/12/Hello-My-World/"/>
+    <id>http://forempty.github.io/2019/06/12/Hello-My-World/</id>
     <published>2019-06-12T07:27:35.979Z</published>
-    <updated>2019-06-12T12:00:34.507Z</updated>
+    <updated>2019-06-13T23:49:41.610Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello,World!"></a>Hello,World!</h1>]]></content>
+    <content type="html"><![CDATA[<pre><code>欢迎来到我的个人博客！</code></pre><p>   在这里，有各种各样的分享<br>    有欢乐的    有伤感的<br>     也有不欢也不悲的…<br>         重要的是<br>   这里有漫漫时光中的一瞬间<br>      透过这一个个瞬间<br>       将会更加珍惜<br>    万金不换、明日不复的<br>          时光</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; class=&quot;headerlink&quot; title=&quot;Hello,World!&quot;&gt;&lt;/a&gt;Hello,World!&lt;/h1&gt;
+        &lt;pre&gt;&lt;code&gt;欢迎来到我的个人博客！
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;   在这里，有各种各样的分享&lt;br&gt;    有欢乐的    有伤感的&lt;br&gt;     也有不欢也不悲的…&lt;br&gt;         重要的是&lt;br&gt;   这里有漫漫时光中的一瞬间&lt;br&gt;      透过
       
     
     </summary>
     
     
-      <category term="Hello,World!" scheme="https://forempty.github.io/tags/Hello-World/"/>
+      <category term="Hello,World!" scheme="http://forempty.github.io/tags/Hello-World/"/>
     
-      <category term="666" scheme="https://forempty.github.io/tags/666/"/>
+      <category term="666" scheme="http://forempty.github.io/tags/666/"/>
     
   </entry>
   
   <entry>
     <title>笔记本电脑的另类用法...</title>
-    <link href="https://forempty.github.io/2019/06/08/fun/"/>
-    <id>https://forempty.github.io/2019/06/08/fun/</id>
+    <link href="http://forempty.github.io/2019/06/08/fun/"/>
+    <id>http://forempty.github.io/2019/06/08/fun/</id>
     <published>2019-06-07T16:00:00.000Z</published>
     <updated>2019-06-12T12:00:04.191Z</updated>
     
@@ -60,14 +61,14 @@
     </summary>
     
     
-      <category term="fun" scheme="https://forempty.github.io/tags/fun/"/>
+      <category term="fun" scheme="http://forempty.github.io/tags/fun/"/>
     
   </entry>
   
   <entry>
     <title>科学上网</title>
-    <link href="https://forempty.github.io/2019/06/07/vpn/"/>
-    <id>https://forempty.github.io/2019/06/07/vpn/</id>
+    <link href="http://forempty.github.io/2019/06/07/vpn/"/>
+    <id>http://forempty.github.io/2019/06/07/vpn/</id>
     <published>2019-06-06T16:00:00.000Z</published>
     <updated>2019-06-12T11:59:35.230Z</updated>
     
@@ -83,14 +84,14 @@
     </summary>
     
     
-      <category term="科学上网" scheme="https://forempty.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+      <category term="科学上网" scheme="http://forempty.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
   </entry>
   
   <entry>
     <title>踢爆蹭你家网络熊孩子的屁股！</title>
-    <link href="https://forempty.github.io/2019/06/06/kick%20the%20asses%20of%20the%20kids%20who%20sneak%20in%20ur%20WLAN/"/>
-    <id>https://forempty.github.io/2019/06/06/kick the asses of the kids who sneak in ur WLAN/</id>
+    <link href="http://forempty.github.io/2019/06/06/kick%20the%20asses%20of%20the%20kids%20who%20sneak%20in%20ur%20WLAN/"/>
+    <id>http://forempty.github.io/2019/06/06/kick the asses of the kids who sneak in ur WLAN/</id>
     <published>2019-06-05T16:00:00.000Z</published>
     <updated>2019-06-12T11:59:29.520Z</updated>
     
@@ -106,27 +107,34 @@
     </summary>
     
     
-      <category term="防蹭网的简单方法" scheme="https://forempty.github.io/tags/%E9%98%B2%E8%B9%AD%E7%BD%91%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95/"/>
+      <category term="防蹭网的简单方法" scheme="http://forempty.github.io/tags/%E9%98%B2%E8%B9%AD%E7%BD%91%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95/"/>
     
-      <category term="water_Pouring" scheme="https://forempty.github.io/tags/water-Pouring/"/>
+      <category term="water_Pouring" scheme="http://forempty.github.io/tags/water-Pouring/"/>
     
-      <category term="DHCP" scheme="https://forempty.github.io/tags/DHCP/"/>
+      <category term="DHCP" scheme="http://forempty.github.io/tags/DHCP/"/>
     
   </entry>
   
   <entry>
     <title>About</title>
-    <link href="https://forempty.github.io/2019/06/01/about/"/>
-    <id>https://forempty.github.io/2019/06/01/about/</id>
+    <link href="http://forempty.github.io/2019/06/01/about/"/>
+    <id>http://forempty.github.io/2019/06/01/about/</id>
     <published>2019-05-31T16:00:00.000Z</published>
-    <updated>2019-06-12T12:32:33.153Z</updated>
+    <updated>2019-06-14T00:05:34.715Z</updated>
+    
+    <content type="html"><![CDATA[<p>关于博主…<br>GXMU的一员，<br>行动派，Action speak louder than words<br>喜欢闷声发大财，<br>爱听歌，不爱情歌。<br>轨迹正常的话，应该是一个码农，<br>但天有不测风云，这辈子不可能当码农了。<br>能吃会睡喜忧愁，<br>爱国爱家爱自己。<br>总是想起范仲淹的那两句话。</p><p>关于首页封面图片的来源…<br>时间原因，会在近期补上其来源。</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;关于博主…&lt;br&gt;GXMU的一员，&lt;br&gt;行动派，Action speak louder than words&lt;br&gt;喜欢闷声发大财，&lt;br&gt;爱听歌，不爱情歌。&lt;br&gt;轨迹正常的话，应该是一个码农，&lt;br&gt;但天有不测风云，这辈子不可能当码农了。&lt;br&gt;能吃会睡喜忧愁，&lt;br
+      
     
     </summary>
     
     
-      <category term="about" scheme="https://forempty.github.io/tags/about/"/>
+      <category term="about" scheme="http://forempty.github.io/tags/about/"/>
     
   </entry>
   
