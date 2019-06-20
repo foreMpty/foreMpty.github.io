@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://forempty.github.io/"/>
-  <updated>2019-06-14T15:40:22.589Z</updated>
+  <updated>2019-06-20T16:19:42.213Z</updated>
   <id>http://forempty.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更不更新教程看心情</title>
+    <link href="http://forempty.github.io/2019/06/21/pre-text1/"/>
+    <id>http://forempty.github.io/2019/06/21/pre-text1/</id>
+    <published>2019-06-20T16:17:39.000Z</published>
+    <updated>2019-06-20T16:19:42.213Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="更不更新看心情"><a href="#更不更新看心情" class="headerlink" title="更不更新看心情"></a>更不更新看心情</h1><p>好累，就这么决定了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;更不更新看心情&quot;&gt;&lt;a href=&quot;#更不更新看心情&quot; class=&quot;headerlink&quot; title=&quot;更不更新看心情&quot;&gt;&lt;/a&gt;更不更新看心情&lt;/h1&gt;&lt;p&gt;好累，就这么决定了。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="我累了" scheme="http://forempty.github.io/tags/%E6%88%91%E7%B4%AF%E4%BA%86/"/>
+    
+      <category term="贼累" scheme="http://forempty.github.io/tags/%E8%B4%BC%E7%B4%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello,World!</title>
