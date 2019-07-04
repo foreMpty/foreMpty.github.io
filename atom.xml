@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://forempty.github.io/"/>
-  <updated>2019-07-03T05:14:26.543Z</updated>
+  <updated>2019-07-04T10:57:08.668Z</updated>
   <id>http://forempty.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>下次更新一下上一个R语言代码的细节</title>
+    <link href="http://forempty.github.io/2019/07/04/text20190704/"/>
+    <id>http://forempty.github.io/2019/07/04/text20190704/</id>
+    <published>2019-07-03T16:00:00.000Z</published>
+    <updated>2019-07-04T10:57:08.668Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="下次更新"><a href="#下次更新" class="headerlink" title="下次更新"></a>下次更新</h1><p>-医学统计R语言代码的细节</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;下次更新&quot;&gt;&lt;a href=&quot;#下次更新&quot; class=&quot;headerlink&quot; title=&quot;下次更新&quot;&gt;&lt;/a&gt;下次更新&lt;/h1&gt;&lt;p&gt;-医学统计R语言代码的细节&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="pre" scheme="http://forempty.github.io/tags/pre/"/>
+    
+  </entry>
   
   <entry>
     <title>R语言代码</title>
