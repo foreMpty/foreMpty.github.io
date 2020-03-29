@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://forempty.github.io/"/>
-  <updated>2019-07-11T13:18:52.845Z</updated>
+  <updated>2020-03-29T13:42:29.884Z</updated>
   <id>http://forempty.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>学校VPN的连接及其应用</title>
+    <title>学校VPN的连接及其应用（已失效）</title>
     <link href="http://forempty.github.io/2019/07/10/Univs_Vpn/"/>
     <id>http://forempty.github.io/2019/07/10/Univs_Vpn/</id>
     <published>2019-07-09T16:00:00.000Z</published>
-    <updated>2019-07-11T13:18:52.845Z</updated>
+    <updated>2020-03-29T13:42:29.884Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>VPN的解释在前面的文章有讲到，这里不做赘述。这篇教程将会讲述连接GXMU的VPN的方法，以便在搬迁校区后使用学校内网的服务。其实这篇教程应该在6月底就已经发出来了，但是无奈期末复习量太大，这篇教程只能被搁置一旁了。<br><strong>内网服务可以做什么？</strong><br>登录内网即可使用内网服务。登录内网后，我们可以登上切片库去浏览切片，还可以使用图书馆服务来查找文献。这样在宿舍或者学校外边使用这些功能，就不用担心在离开实验室或者图书馆后不能浏览切片或者查找文献的问题了。</p><hr><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>好，现在进入正题。</p><h2 id="一、内网的连接"><a href="#一、内网的连接" class="headerlink" title="一、内网的连接"></a>一、内网的连接</h2><h3 id="1、安装VPN所需的环境"><a href="#1、安装VPN所需的环境" class="headerlink" title="1、安装VPN所需的环境"></a>1、安装VPN所需的环境</h3><p>学校VPN为深信服VPN，要在Java环境下运行。<br>这是Java环境组件的下载地址：<a href="https://www.java.com" target="_blank" rel="noopener">https://www.java.com</a>(玩过桌面端MineCraft的朋友应该对这个很熟悉)。点击页面的”免费Java下载”并按照它的提示一直安装就可以了。</p><h3 id="2、安装深信服VPN组件"><a href="#2、安装深信服VPN组件" class="headerlink" title="2、安装深信服VPN组件"></a>2、安装深信服VPN组件</h3><p>首次安装深信服VPN组件需要用 <strong>IE浏览器</strong> 进入到某一个网页来下载（具体哪一个网页等会儿会讲到）。<br>然后在 <strong>IE浏览器</strong> 的地址栏输入svpn.gxmu.edu.cn后按下回车进入深信服VPN组件安装页面。又或者，设置了 <strong>IE浏览器</strong> 为默认网页浏览器后也可以点击 <a href="https://svpn.gxmu.edu.cn" target="_blank" rel="noopener">进入深信服VPN组件安装页面</a> 来安装组件 。<br>如下图为进入深信服SSL VPN的登录界面。<br><img src="/img/Univs_Vpn/Sangfor_GXMU_Login.JPG" alt="Sangfor_GXMU_WEB"><br>如果出现某些提示，如下图，按照图中的提示来解决就好了。<br><img src="/img/Univs_Vpn/gxmuvpn1.JPG" alt="SangforVPN_GXMU_WARNING"></p><h3 id="3、深信服SSL-VPN登录"><a href="#3、深信服SSL-VPN登录" class="headerlink" title="3、深信服SSL VPN登录"></a>3、深信服SSL VPN登录</h3><p>GXMU的深信服VPN默认登录用户名和密码都是 <strong>gxmuvpn</strong> ，按下图操作即可。<br><img src="/img/Univs_Vpn/gxmuvpn2.JPG" alt="SangforVPN_GXMU_Go"><br>登录后，如果是第一次登录，它会有如下图的提示。按照提示来安装组件就好了。<br><img src="/img/Univs_Vpn/Vpn_Install.JPG" alt="Vpn_Install"></p><h3 id="4、EasyConnect的使用"><a href="#4、EasyConnect的使用" class="headerlink" title="4、EasyConnect的使用"></a>4、EasyConnect的使用</h3><p>第一次安装组件好了之后，它会自动连接内网，并在桌面上放置了一个软件的快捷方式，如下图。<br><img src="/img/Univs_Vpn/desk_icon.JPG" alt="deskicon"><br>当然在右下角的托盘也会有一个这样的图标。<br><img src="/img/Univs_Vpn/ea1.JPG" alt="icon1"><br>对着右下角的图标点击鼠标右键，选择”退出”就可以关闭这个软件并断开内网的连接了。<br>当我们需要再次连接内网的时候，打开桌面上它所给的快捷方式然后输入用户名和密码就可以再次连接上内网了(用户名和密码都是 <strong>gxmuvpn</strong> )。</p><h2 id="二、连接内网后的使用"><a href="#二、连接内网后的使用" class="headerlink" title="二、连接内网后的使用"></a>二、连接内网后的使用</h2><h3 id="1、切片库的使用"><a href="#1、切片库的使用" class="headerlink" title="1、切片库的使用"></a>1、切片库的使用</h3><p>学校自己的切片库：<a href="http://210.36.48.184/DSE/" target="_blank" rel="noopener">点击打开</a><br>购买来的切片库(需要用谷歌浏览器或者火狐浏览器来打开)：<a href="http://10.101.242.10:8000" target="_blank" rel="noopener">点击打开</a> 或者在浏览器地址栏处输入 <strong>10.101.242.10:8000</strong> 来打开。</p><h3 id="2、图书馆服务的使用-Win10系统的使用请看文章尾"><a href="#2、图书馆服务的使用-Win10系统的使用请看文章尾" class="headerlink" title="2、图书馆服务的使用(Win10系统的使用请看文章尾)"></a>2、图书馆服务的使用(Win10系统的使用请看文章尾)</h3><p>连接内网后会自动打开一个网页，如下图。<br><img src="/img/Univs_Vpn/schoolvpn.JPG" alt="webpage_vpn"><br>点击图书馆来打开它：它里面的服务都可以使用了，如下图。<br><img src="/img/Univs_Vpn/lib_serv.JPG" alt="libser"></p><hr><h1 id="出现的问题"><a href="#出现的问题" class="headerlink" title="出现的问题"></a>出现的问题</h1><p>Win10系统下连接内网后无法使用图书馆服务</p><h3 id="问题出现在哪里？"><a href="#问题出现在哪里？" class="headerlink" title="问题出现在哪里？"></a>问题出现在哪里？</h3><p>其实就是Win10系统搞了一个对系统文件数字签名的校检。而信息中心给的这个组件是11年的老货，它的一个关键文件 <strong>SangforTcpDrv.sys</strong> 数字签名的证书不能用了，进而使之数字签名不可用而通不过Win10系统的校检。这个关键文件是Tcp服务的一个组件，缺了它就不能正常地使用图书馆的服务了。</p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>一、Win10系统下修改右下角托盘的系统时间，使之落在2011年8月29日到2014年9月1日之间，然后方可在Win10系统下正常使用图书馆服务(<strong>简单易操作</strong>)。<br>二、通过修改签名的软件，修改关键文件 <strong>SangforTcpDrv.sys</strong> 的数字签名，使其时间戳于2011年8月29日到2014年9月1日之间。<br>三、用WinXP/7/8 系统连接内网…<br>四、通过Win10启动服务关闭系统文件的签名校检（没试过，可以尝试看看）。</p>]]></content>
     
